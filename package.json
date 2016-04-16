@@ -1,0 +1,23 @@
+{
+  "name": "mapagogo",
+  "version": "1.0.0",
+  "description": "mapping mobile utility",
+  "main": "index.js",
+  "dependencies": {
+    "leaflet": "^0.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commanderturner/mapagogo.git"
+  },
+  "author": "mark turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/commanderturner/mapagogo/issues"
+  },
+  "homepage": "https://github.com/commanderturner/mapagogo#readme"
+}
