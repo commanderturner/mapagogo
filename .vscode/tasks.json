@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "command": "npm",
+    "showOutput": "always",
+    "windows": {
+        "isShellCommand": true
+    },
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "problemMatcher": "$tsc",
+            "args": [
+                "run",
+                "build"
+            ]
+        }
+	]
+}
