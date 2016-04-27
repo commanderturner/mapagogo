@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"module": "amd",
+		"sourceMap": true,
+		"target": "es5"
+	},
+	
+    "exclude": [
+		"node_modules",
+        "plugins",
+        "hooks",
+        "platforms",
+		"typings/browser",
+		"typings/browser.d.ts",
+		"typings/main",
+        "typings/leaflet"
+    ]
+}

@@ -7,7 +7,11 @@
 			"request": "launch",
 			"platform": "android",
 			"target": "device",
+<<<<<<< HEAD
 			"port": 9333,
+=======
+			"port": 9222,
+>>>>>>> 0b98ecbd610077358a48e96905d3ffdb93e1469b
 			"sourceMaps": true,
 			"cwd": "${workspaceRoot}",
 			"ionicLiveReload": false
@@ -18,7 +22,11 @@
 			"request": "launch",
 			"platform": "ios",
 			"target": "device",
+<<<<<<< HEAD
 			"port": 9333,
+=======
+			"port": 9220,
+>>>>>>> 0b98ecbd610077358a48e96905d3ffdb93e1469b
 			"sourceMaps": true,
 			"cwd": "${workspaceRoot}",
 			"ionicLiveReload": false
@@ -29,7 +37,11 @@
 			"request": "attach",
 			"platform": "android",
 			"target": "device",
+<<<<<<< HEAD
 			"port": 9333,
+=======
+			"port": 9222,
+>>>>>>> 0b98ecbd610077358a48e96905d3ffdb93e1469b
 			"sourceMaps": true,
 			"cwd": "${workspaceRoot}"
 		},
