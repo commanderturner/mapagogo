@@ -1,5 +1,9 @@
 {
   "name": "mapagogo",
   "version": false,
-  "dependencies": {}
+  "dependencies": {},
+  "ambientDependencies": {
+    "browserify": "registry:dt/browserify#12.0.1+20160317120654",
+    "leaflet": "registry:dt/leaflet#0.7.3+20160412142116"
+  }
 }

@@ -4,11 +4,17 @@
   "description": "mapping mobile utility",
   "main": "index.js",
   "dependencies": {
+    "browserify": "^13.0.0",
+    "jshint": "^2.9.2",
     "leaflet": "^0.7.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint **.js",
+    "build": "browserify www/js/index.js node_modules/leaflet/dist/leaflet.js > www/js/mapagogo.min.js",
+    "test": "mocha test/",
+    "prepublish": "npm run build # also runs npm run prebuild",
+    "prebuild": "cordova build android --debug"
   },
   "repository": {
     "type": "git",
